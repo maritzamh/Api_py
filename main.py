@@ -71,4 +71,4 @@ async def agregar_nombre(nombre: str = Form(...)):
 # Ejecutar la aplicación
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, port=1000)
+    uvicorn.run(app, port=8080)
