@@ -55,7 +55,7 @@ def get_html_nombres():
     return html_content
 
 # Endpoint para obtener la lista de nombres
-@app.get("/nombres", response_class=HTMLResponse)
+@app.get("/", response_class=HTMLResponse)
 async def obtener_nombres():
     return get_html_nombres()
 
